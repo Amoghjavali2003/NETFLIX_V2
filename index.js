@@ -12,9 +12,9 @@ const port = 3000;
 // MySQL connection
 const db = mysql.createConnection({
     host: 'localhost',
-    user: 'root',
-    password: 'Amogh@2003',
-    database: 'netflix_clone'
+    user: 'User Name',
+    password: 'Your Password',
+    database: 'database name'
 });
 
 db.connect((err) => {
